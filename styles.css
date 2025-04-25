@@ -1,6 +1,6 @@
 body{
     margin:0;
-    padding:50px;
+  
 }
 .nav-container {
     display: flex;
@@ -77,6 +77,7 @@ body{
   
   .waitlist-form {
     margin-top: -100px;
+    margin-left: 50px;;
 
   }
   
@@ -110,17 +111,176 @@ body{
   }
   .colaborators-container{
     display:flex;
-    align-items: center;
     justify-content: center;
-    gap: 40px;
-    padding:50px 20px;
-    flex-wrap: wrap;
+    padding-bottom: 40px;;
+    margin-top: -140px;
+  
+    
   }
-    .colaborators-container img{
-        max-height: 200px;
-        object-fit: contain; 
+  .collaborators-logos{
+        align-items:center;
+        
     }
   .collaborator-3{
-    margin-top: 19px;
+    object-position: 0em 8em ;
+    margin-left:-70px ;
+    margin-right: -90px;
+    
+
 
   }
+  .features{
+    display:flex;
+    justify-content: space-between;
+
+  }
+  .features img {
+      width: 900px;
+
+  }
+  
+  .features-text h1{
+      font-size: 32px;
+      line-height: 1.4;
+      font-weight: 100px;
+      max-width:600px;
+      display:flex;
+      flex-direction:row;
+    
+  }
+ .how-it-works{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    border: 1px solid #000;
+    margin: 50px;
+
+  }
+  
+  .how-it-works-text {
+      font-size: 32px;
+      line-height: 1.4;
+      font-weight: 100px;
+      max-width:600px;
+      padding-left:50px
+  }
+  .how-it-works-image {
+      width: 600px;
+      padding-right:40px
+  }
+  /* CTA SECTION */
+.cta-section {
+  background-image: url("../images/Rectangle\ 2925.png");
+  background-size: cover;
+  padding: 50px 80px;
+  text-align: left;
+  color:white;
+  height: 472px;
+  
+}
+
+.cta-section h2 {
+    width:600px;
+    font-size:75px;
+    line-height: 80px;
+    font-weight:400px;
+
+  
+}
+
+.cta-section span {
+  color: #00c4a6; /* greenish highlight */
+}
+
+.join-team-btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  border: 2px solid white;
+  background: transparent;
+  color:white;
+  cursor: pointer;
+  width:300px;
+  font-size: 30px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #111;
+  padding: 40px 20px 20px;
+  color: #fff;
+  height:290px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  
+  margin: 0 auto;
+}
+
+.footer-col {
+  flex: 1 5 100px;
+}
+
+.footer-col h3 {
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 8px;
+}
+
+.footer-col ul li a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer-col ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Waitlist Input */
+.wait-form{
+  margin-top: -70px;
+  display: flex;
+  justify-content: center;
+
+
+  
+}
+
+.wait-form input {
+  padding: 10px 15px;
+  background-color:black;
+  border-radius: 25px;
+  border: 1px solid #444;
+  width: 400px;
+  outline: none;
+  font-size: 30px;
+
+}
+
+.wait-btn {
+  padding: 10px 20px;
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+
+  
+}
+
+.wait-btn:hover {
+  background-color: #00c4a6;
+}
