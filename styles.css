@@ -15,7 +15,7 @@ body{
   
   
   .rebasive-logo img {
-    width: 200px;
+    width: auto;
 
   }
   
@@ -51,7 +51,7 @@ body{
     
   }
   .rebasive-comments{
-    max-width:800px;
+    max-width:auto;
   }
   .rebasive-comments h1{
      font-size:86px;
@@ -60,7 +60,7 @@ body{
   .rebasive-card{
     display: flex;
     align-self: end;
-    width:500px;
+    width:auto;
   }
     .rebasive-comments span{
         color: #00C996;
@@ -124,7 +124,8 @@ body{
 
   }
   .features img {
-      min-width: 800px;
+      min-width: auto;
+      
 
   }
   
@@ -141,51 +142,50 @@ body{
     padding:60px;
     margin: 60px;
     border: 1px solid #ccc; /* That border you see around everything */
+    width: auto;
   }
-  
-  .how-it-works-content {
+   .how-it-works-content {
     flex: 1;
     padding-right: 40px;
-  }
+   }
   
   .how-it-works-content h1 {
     font-size: 64px;
     font-weight: 800px;
 
-  }
+   }
   
   .how-it-works-content .subtitle {
     font-size: 40px;
     color: #666;
     margin-bottom: 100px;
-  }
+   }
   
   .how-it-works-content h2 {
     font-size: 39px;
     font-weight: 800;
     margin-bottom: 20px;
     max-width: 370px;
-  }
+   }
   
   .how-it-works-content .description {
     font-size: 20px;
     color: #555;
     line-height: 1.6rem;
     max-width: 450px;
-  }
+   }
   
   .how-it-works-image {
-    flex: 1;
     display: flex;
     justify-content: end;
-  }
+   }
   
   .how-it-works-image img {
-    width: 500px;
+    width: 100%;
   
     border: 2px solid #00c896; /* The green outline */
     border-radius: 10px;
-  }
+    }
   
   
  
@@ -196,7 +196,7 @@ body{
   padding: 40px 200px;
   text-align: left;
   color:white;
-  height: 490px;
+  
   
 }
 
@@ -230,7 +230,7 @@ body{
   background-color: #111;
   padding: 40px 20px 20px;
   color: #fff;
-  height:290px;
+
 }
 
 .footer-container {
@@ -248,8 +248,11 @@ body{
 }
 
 .footer-col h3 {
-  font-size: 23px;
+  font-size: 24px;
   margin-bottom: 10px;
+}
+.footer-col p{
+  font-size:20px;
 }
 
 .footer-col ul {
@@ -264,7 +267,7 @@ body{
 .footer-col ul li a {
   color: #ccc;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .footer-col ul li a:hover {
@@ -278,6 +281,8 @@ body{
             display: flex;
             width: 400px;
             align-items: center;
+            justify-self: center;
+            margin-top: -50px;
         }
 
         .input-box {
