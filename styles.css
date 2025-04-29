@@ -1,14 +1,16 @@
 body{
-    margin:0;
+ margin: 0;
+ 
+
   
 }
 .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding:40px 80px;
     background-color: white;
-    border-bottom: 2px solid #eee;
+    
   }
   
   
@@ -21,14 +23,14 @@ body{
   .team-container{
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 80px;
   }
   
   .join-team {
     text-decoration: none;
     color: #10b981; /* emerald */
     font-weight: 200;
-    font-size:30px
+    font-size:20px
   }
   
   .join-btn {
@@ -36,8 +38,7 @@ body{
     border: 1px solid #000;
     background: none;
     cursor: pointer;
-    font-weight: 200;
-    font-size: 30px;
+    font-size: 20px;
   }
   
   .join-btn:hover {
@@ -46,18 +47,14 @@ body{
   .main-container{
     display: flex;
     justify-content: space-between;
-    padding: 60px 40px;
-    flex-wrap: wrap;
+    padding:40px 80px;
+    
   }
   .rebasive-comments{
-    max-width:600px;
-    display:flex;
-    flex-direction:row;
-    justify-content: space-between;
+    max-width:800px;
   }
   .rebasive-comments h1{
-     font-size:90px;
-     font-weight: 800;
+     font-size:86px;
 
   }
   .rebasive-card{
@@ -74,53 +71,45 @@ body{
     color: #10b981; /* emerald */
     font-weight: bold;
   }
-  
   .waitlist-form {
-    margin-top: -100px;
-    margin-left: 50px;;
+    display: flex;
+    gap: 20px; /* Space between inputs and button */
+    align-items: center;
+    padding-top: 90px;
+  }
 
+  
+  .waitlist-button {
+    padding: 13px 50px;
+    background-color: #00c896; /* That green color */
+    color: white;
+    border: none;
+    cursor: pointer;
   }
   
-  .waitlist-form input {
-    padding: 12px 16px;
-    border: 1px solid #000;
-    font-size: 24px;
-    border-radius: 4px;
-    flex: 1;
-
+  .waitlist-button:hover {
+    background-color: #00b386; /* Slightly darker green on hover */
   }
   .fullname{
-    max-width:150px;
+   width:250px;
+   height: 50px;
+   font-size:19px;
+   padding-left:30px ;
+ }
+ .email{
+    width:500px;
+    height: 50px;
+    padding-left:30px ;
+    font-size:19px;
+ }
 
-  }
-  
-  .waitlist-form button {
-    background-color: #10b981;
-    color: white;
-    padding:  19px 24px;
-    border: none;
-    border-radius: 4px;
-    font-weight: 600;
-    cursor: pointer;
-    font-size: 16px;
-    
-  }
-  
-  .waitlist-form button:hover {
-    background-color: #0e9e6e;
-  }
   .colaborators-container{
     display:flex;
     justify-content: center;
-    padding-bottom: 40px;;
-    margin-top: -140px;
-  
-    
+    margin-top: -180px;
+    margin-bottom: 90px;
   }
-  .collaborators-logos{
-        align-items:center;
-        
-    }
+  
   .collaborator-3{
     object-position: 0em 8em ;
     margin-left:-70px ;
@@ -135,55 +124,88 @@ body{
 
   }
   .features img {
-      width: 700px;
+      min-width: 800px;
 
   }
   
   .features-text h1{
-      font-size: 32px;
-      line-height: 1.4;
-      font-weight: 100px;
-      max-width:600px;
+      font-size: 30px;
+      line-height: 3rem;
+      max-width:500px;
       display:flex;
       flex-direction:row;
     
   }
- .how-it-works{
-    display:flex;
-    justify-content: space-between;
-    padding: 20px 40px;
-    border: 1px solid #000;
-    margin: 50px;
+  .how-it-works-section {
+    display: flex;
+    padding:60px;
+    margin: 60px;
+    border: 1px solid #ccc; /* That border you see around everything */
+  }
+  
+  .how-it-works-content {
+    flex: 1;
+    padding-right: 40px;
+  }
+  
+  .how-it-works-content h1 {
+    font-size: 64px;
+    font-weight: 800px;
 
   }
   
-  .how-it-works-text {
-      font-size: 32px;
-      line-height: 1.4;
-      font-weight: 100px;
-      max-width:600px;
-      padding-left:50px
+  .how-it-works-content .subtitle {
+    font-size: 40px;
+    color: #666;
+    margin-bottom: 100px;
   }
+  
+  .how-it-works-content h2 {
+    font-size: 39px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    max-width: 370px;
+  }
+  
+  .how-it-works-content .description {
+    font-size: 20px;
+    color: #555;
+    line-height: 1.6rem;
+    max-width: 450px;
+  }
+  
   .how-it-works-image {
-      width: 600px;
-      padding-right:40px
+    flex: 1;
+    display: flex;
+    justify-content: end;
   }
+  
+  .how-it-works-image img {
+    width: 500px;
+  
+    border: 2px solid #00c896; /* The green outline */
+    border-radius: 10px;
+  }
+  
+  
+ 
   /* CTA SECTION */
 .cta-section {
   background-image: url("../images/Rectangle\ 2925.png");
   background-size: cover;
-  padding: 50px 80px;
+  padding: 40px 200px;
   text-align: left;
   color:white;
-  height: 472px;
+  height: 490px;
   
 }
 
 .cta-section h2 {
-    width:600px;
-    font-size:75px;
+    width:800px;
+    font-size:90px;
     line-height: 80px;
-    font-weight:400px;
+    font-weight:600px;
+
 
   
 }
@@ -249,38 +271,31 @@ body{
   text-decoration: underline;
 }
 
-/* Waitlist Input */
-.wait-form{
-  margin-top: -70px;
-  display: flex;
-  justify-content: center;
+   .input-container {
+            border: 1px solid white;
+            border-radius: 39px;
+            padding: 10px 4px;
+            display: flex;
+            width: 400px;
+            align-items: center;
+        }
 
+        .input-box {
+            outline: none;
+            border: none;
+            width: 280px;
+            padding: 8px;
+            font-size: 24px;
+            background-color: transparent;
+            color: white;
+        }
 
-  
-}
+        .input-button {
+            border-radius: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            background-color: #2C2C2C;
+            color: white;
+        }
 
-.wait-form input {
-  padding: 10px 15px;
-  background-color:black;
-  border-radius: 25px;
-  border: 1px solid #444;
-  width: 400px;
-  outline: none;
-  font-size: 30px;
-
-}
-
-.wait-btn {
-  padding: 10px 20px;
-  background: #333;
-  color: white;
-  border: none;
-  cursor: pointer;
-  border-radius: 25px;
-
-  
-}
-
-.wait-btn:hover {
-  background-color: #00c4a6;
-}
