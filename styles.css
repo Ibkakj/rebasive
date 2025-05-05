@@ -121,12 +121,11 @@ body{
   .features{
     display:flex;
     justify-content: space-between;
-
+    row-gap:50px;
+    
   }
   .features img {
-      min-width: auto;
-      
-
+    width: 730px;
   }
   
   .features-text h1{
